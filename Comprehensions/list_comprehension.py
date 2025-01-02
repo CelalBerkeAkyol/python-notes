@@ -1,3 +1,12 @@
+
+'''
+[<expression> for x in <sequence> if <condition>] 
+	•	<expression>: Her öğe üzerinde yapılacak işlem.
+	•	<sequence>: Üzerinde işlem yapılacak orijinal veri dizisi.
+	•	<condition> (isteğe bağlı): Belirli bir koşula uyan öğeleri filtreler.
+'''
+
+
 data = [2,3,5,7,11,13,17,19,23,29,31]
 
 # Ex1: List comprehension: updating the same list

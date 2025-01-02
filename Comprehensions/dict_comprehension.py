@@ -1,4 +1,10 @@
 # Using range() function and no input list
+'''
+{key: value for key, value in <sequence> if <condition>}
+	•	key: Sözlükteki anahtar.
+	•	value: Anahtar için atanacak değer.
+	•	<condition> (isteğe bağlı): Filtreleme için kullanılır.
+'''
 usingrange = {x:x*2 for x in range(12)}
 print("Using range(): ",usingrange)
 
